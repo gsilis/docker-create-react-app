@@ -1,3 +1,2 @@
-docker stop nginx-test
-docker rm nginx-test
+./docker-scrub
 docker run --name nginx-test -d -p 80:80 gsilis/nginx-spa
