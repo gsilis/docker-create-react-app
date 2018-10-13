@@ -1,0 +1,3 @@
+docker stop nginx-stop
+docker rm nginx-test
+docker run --name nginx-test -d -p 80:80 gsilis/nginx
